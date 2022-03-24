@@ -1,0 +1,743 @@
+{%extends 'base.html'%}
+
+    {%block head%}
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename = '../static/content.css')}}">
+    <script src="{{url_for('static',filename = '../static/javascript/content.js')}}" type="text/javascript"></script>
+    {%endblock%}
+
+{%block body%}
+    <div class="first">
+        <p>EXPLORE BY</p>
+        <hr>
+    </div><br />
+
+    <div class="container">
+        <div id="content">
+            <a href="covid">CORONAVIRUS 2021</a>
+        </div>
+    </div><br />
+
+    <div class="container">
+        <div id="content">
+            <a href="#">NUTRITION</a>
+        </div>
+    </div><br />
+
+    <div class="container">
+        <div id="content">
+            <a href="#">PARENTHOOD</a>
+        </div>
+    </div><br />
+    <div class="container">
+        <div id="content">
+            <a href="#">WOMEN'S WELNESS</a>
+        </div>
+    </div><br />
+    </div>
+
+    <div class="second">
+        <h2>EDITOR'S PICK</h2>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <p><img src="../static/images/three.png" style="width:100%"></p>
+            <a href="#">
+                <p>"pifizer-BioNTech<br />
+                    COVID-19 vaccine Gets<br />
+                    full FDA Approval</p>
+            </a>
+        </div>
+        <div class="column">
+            <img src="../static/images/four.png" style="width:100%">
+            <a href="#">
+                <p>"Black Women Are"<br />
+                    Changing the Game for<br />
+                    Athletes"</p>
+            </a>
+
+        </div><br />
+        <div class="stories">
+            <h2>LATEST STORIES</h2>
+        </div>
+        <hr>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/five.png" style="width:100%">
+                <a href="#">
+                    <h3>study:people with Delta variant
+                        <br /> can Transmit virus 2 <br />Days Before Having Symptoms
+                    </h3>
+
+                    <p>New research in the journal Nature suggests that<br />nearly 75 percent of Delta variant
+                        infections<br />
+                        happen during the presymptomatic phase<span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span> </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/six.png" style="width:100%">
+                <a href="#">
+                    <h3>Get the pfizer or mordana
+                        <br /> Vaccine? Expect a Booster <br />Starting This Fall
+                    </h3>
+
+                    <p>Booster shots are being recommended in response<br />to the dominant Delta variant.<span
+                            id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span> </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/seven.png" style="width:100%">
+                <a href="#">
+                    <h3>A Silver of Remote
+                        <br /> Learning:Students Got a lot <br />More sleep
+                    </h3>
+
+                    <p>Later start times and online coursework were<br />linked to more sufficient sleep
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/eight.png" style="width:100%">
+                <a href="#">
+                    <h3>Monoclonal Antibody
+                        <br /> Treatment for COVID-19 <br />What to know
+                    </h3>
+
+                    <p>Experts emphasize thatcantibody treatment<br />is not a substitute for vaccination
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <h2>TRENDING</h2>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/nine.png" style="width:100%">
+                <a href="#">
+                    <h3>Experts Recommend lowering
+                        <br /> Age to 35 for initial prediabetes, <br />Type 2 Diabetes screening
+                    </h3>
+
+                    <p>For adults who are overweight or have high obesity,<br />experts now reccomend initial screening
+                        for<br />
+                        prediabetes and type 2 diabetes
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/ten.png" style="width:100%">
+                <a href="#">
+                    <h3>Do you Really Need
+                        <br /> to Bathe every day <br />to stay clean?
+                    </h3>
+
+                    <p>There's a growing trend to forgo the daily shower<br />
+                        Should you jump on the bandwagon?
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/eleven.png" style="width:100%">
+                <a href="#">
+                    <h3>I Didn't Know I
+                        <br /> Had Anxiety untill<br />I went to Rehab
+                    </h3>
+
+                    <p>Many people with substance use dissorder also<br />
+                        have a mental health condition, but it can take a lot<br />
+                        of time(and work) to
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="signup">
+            <h3>Be in the know with natural<br />
+                health remedies</h3>
+
+            <p>Explore natural remedies for healing<br />
+                and helth management with our <br />
+                weekly Natural newsletter.</p>
+
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <div class="clearfix">
+                <button type="button" class="signupbtn">Sign up</button>
+            </div>
+            <p>your <a href="#">privacy</a> is imortant to us</p>
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/one.png" style="width:100%">
+                <a href="#">
+                    <h3>Will Unvaccinated
+                        <br /> People Face Barriers<br />to Medical care?
+                    </h3>
+
+                    <p>An increasing number of unvaccinated people are <br />
+                        being hospitalized or dying from COVID-19 in <br />
+                        Africa .This has
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/two.png" style="width:100%">
+                <a href="#">
+                    <h3> 12 Best
+                        <br /> Stress-Busting products<br />Editor's Picks
+                    </h3>
+
+                    <p>Take back your Zen with a collection of <br />
+                        products specially curated by--and used by -- <br />
+                        our Health editors
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/three.png" style="width:100%">
+                <a href="#">
+                    <h3> When Should You Eat?
+                        <br /> The Best Time For Meals,<br />Explained
+                    </h3>
+
+                    <p>if yo're trying to achieve a healthy lifestyle, you<br />
+                        may wonder whether when you eat matters<br />
+                        as much as what you eat.This
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/four.png" style="width:100%">
+                <a href="#">
+                    <h3> Immunocompromised?
+                        <br /> Here's How to Navigate the Ever-<br />
+                        Changing COVID-19 Guidelines
+                    </h3>
+
+                    <p>Understanding our unique set of concerns and<br />
+                        protocols can feel dizzy. But there are actions<br />
+                        you can take to protect
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story">
+            <div class="story-img">
+                <img src="../static/images/five.png" style="width:100%">
+                <a href="#">
+                    <h3> 11 Signs you're
+                        <br /> Dating a Narcissist-<br />
+                        and How to Get Out
+                    </h3>
+
+                    <p>A true narcissist isn't just someone who's self-<br />
+                        absorbed, especially if they fit a clinical diagnosis.<br />
+                        A true narcisist will
+                        <span id="dot">...</span><span id="more">the other page i
+                            will link it here with all its features NB
+                        </span>
+                    </p>
+            </div>
+            <div class="button">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+
+            </a>
+        </div>
+        <div class="boldLine">
+        </div>
+
+        <div class="story-img">
+            <img src="../static/images/three.png" style="width:100%">"
+
+            <div class="health">
+                <h4>healthline</h4>
+                <h2>Wellness Tools</h2>
+                <a href="#">
+                    <p>Explore The Human Body </p>
+                </a>
+                <hr />
+                <a href="#">
+                    <p>Find An Online Doctor </p>
+                </a>
+                <hr />
+                <h3>SYMPTOM CHECKER</h3>
+                <P>If you're experiencing symptoms but<br />
+                    you're not sure what they mean, use our <br />
+                    symptom checker to help determine <br />
+                    possible causes and treatments</P>
+
+                <div class="symptom">
+                    <div class="content">
+                        <a href="#">
+                            <P>Enter Your Symptom</P>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="reads">
+                <h3>MORE TOP READS</h3>
+                
+                <div class=hr>
+                    <hr />
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/twelve.png" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            Here's How well COVID-19 <br />
+                            vaccine works Against the Delta Variant
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/thirteen.png" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            15 best products for sunburn <br />
+                            Relief According to <br />
+                            Darmatologists
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/fourteen.png" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            cutting out 200 calories a Day <br />
+                            and Exercising can help you stay<br />
+                            Heart...
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/fifteen.png" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            Stress Management Tools for the <br />
+                            2021- 2022 School year
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/sixteen.png" style="width:100%">
+                        </a>
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            12 Sweet and Diabetes-Friendly <br />
+                            Snacks
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                        <a href="#">
+                            <img src="../static/images/seventeen.png" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            The 9 best Affordable FItness <br />
+                            Trackers of 2021 <br />
+                            Darmatologists
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                    
+                        <a href="#">
+                            <img src="../static/images/eighteen.jpg" style="width:100%">
+                        </a>
+                    
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            The Begginer's Guide to using <br />
+                            Breakwork for Better Sleep <br />
+                            Darmatologists
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sturbon">
+                <div class="sturbon-img">
+                        <a href="#">
+                            <img src="../static/images/ninteen.png" style="width:100%">
+                        </a>
+                </div>
+                <div class="caption">
+                    <a href="#">
+                        <p>
+                            How to (finally) Break the cycle<br />
+                            of chronic Procastination <br />
+                            Darmatologists
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="spotlight">
+                <h2>SPOTLIGHT</h2>
+                <hr>
+            </div>
+
+<div class="moonlight">
+    <a href="#">
+        <img src="../static/images/twentytwo.png" style="width:100%" >
+        <h2>HEALTHY<br/>
+            EATING</h2>
+            <P>in Real life</P>
+    </a>
+    
+</div>
+
+<div class="moonlight">
+    <a href="#">
+        <h2>MAGRAINE</h2>
+        <P>stories and <br/>
+        self care tips</P>
+        <img src="../static/images/twentyseven.png" style="width:100%" >
+        <p>SPONSORED</p>
+        
+    </a>
+    
+</div>
+
+<div class="moonlight">
+    <a href="#">
+        <h5>BLACK WOMEN'S</h5>
+        <h6>HEALTH IMPERATIVE</h6>
+        <h2>Managing Your<br/>
+        Mental Health<br/>
+        During the pandemic
+    </h2>
+        <img src="../static/images/twenty.png" style="width:100%" >
+
+        <p>healthline</p>
+        
+    </a>
+    
+</div>
+
+<div class="moonlight">
+    <a href="#">
+
+        <img src="../static/images/twentyone.png" style="width:100%" >
+        <h2>Type 2 Diabetes</h2>
+        <h5>Tools, support, and clarity<br/>
+            for your Type 2 Diabetes Journey
+        </h5>
+
+        <p>healthline</p>
+        
+    </a>
+    
+</div>
+
+<div class="bar">
+    <h3>Healthline is raising the bar</h3>
+
+   <p>At Healthline, we pride ourselves on the quality,<br/>
+research, and transparency we put into every<br/>
+article</p>
+<div class="materials">
+    <div class="material-img">
+        <a href="#">
+            <img src="../static/images/ninteen.png" style="width:100%">
+        </a>
+    </div>
+    
+    <p>All articles are thouroughly researched and<br/>
+     reference high-quality sturdies and<br/>
+     information to support the subject matter.</p>
+</div>
+
+<div class="materials">
+    <div class="material-img">
+        <a href="#">
+            <img src="../static/images/twentythree.png" style="width:100%">
+        </a>
+    </div>
+    <p>over 20,000 articles have been medically <br/>
+     reviewed by doctors, nurses and subject<br/>
+     matter specialists.</p>
+</div>
+
+<div class="materials">
+    <div class="material-img">
+        <a href="#">
+            <img src="../static/images/twentyfour.png" style="width:100%">
+        </a>
+    </div>
+    <p>our experts continually monitor the health <br/>
+     and wellness space.As medical standards<br/>
+     change or we get reader feedback, we<br/>
+    update the information in our articles.</p>
+</div>
+
+    <div class="guarantee">
+        <a href="#"><p>READ OUR QUALITY GUARANTEE</p></a>
+    </div>
+
+</div>
+
+<div class="healthtopics">
+    <h4>Featured Health Topics</h4>
+    <a href="#"><h4>VIEW ALL</h4></a>
+
+    <hr>
+</div>
+
+<div class="newsletter">
+    <a href ="#"><h2>healthline</h2></a>
+
+    <h3>Get our Welness newsletter</h3>
+    <p>Filter out the noise and nurturen your inbox with health<br/>
+     and welness advice that's inclusive and rooted in<br/>
+               medical expertise.</p>
+
+               <label for="Email"><b>Email</b></label>
+
+               <input type="text" placeholder="Enter email" name="email" required>
+
+               <div class="clearfix">
+                   <button type="button" class="signup">Sign up</button>
+               </div>
+
+               <p>Your <a href="#">privacy</a> is important to us</p>
+
+               <div class="cridentials">
+                   <a href ="#"><p>About us<br/>
+                                  Contact us<br/>
+                                  privacy policy<br/>
+                                  privacy settings<br/>
+                                  Advertising policy<br>
+                                  Health topics 
+                </p></a>
+                
+               </div>
+
+               <div class="morecridentials">
+                <a href="#">
+                    <p>Medical Affairs<br/>
+                       Content integrity<br/>
+                       Newsletters
+                    </p>
+                </a>
+            </div>
+
+            <div class="empty">
+                <p> </p>
+            </div>
+
+               <p>2005-2021 Healthline Media a Red Venture Company.All<br/>
+                rights reserved. Our website services, content, and products<br/>
+                are for informational purpose only.Healthline Media does not
+                 provide medical advice, diagnosis, or treatment.<a href ="#">see additional<br/> 
+                 information.</a></p>
+</div>
+
+<div class="media">
+    <a href="#"><h3>HEALTHLINE MEDIA</h3></a>
+
+    <a href="#">About |  Careers | Advertise with us</a>
+
+    <h3>OUR BRANDS</h3>
+      <a href="#">Healthline<br/>
+              Medical News Today<br/>
+                  Greatist<br/>
+                Psych Central
+            </a>
+
+</div>
+{%endblock%}

@@ -1,0 +1,15 @@
+*box-sizing{
+    box-sizing :border-box;
+}
+
+html{
+    font-family:"lucida sans", sans-serif;
+}
+.first{
+    background-image: url('../static/images/test.jpg');
+    padding:5px; 
+    width:600px;
+    height:500px;
+    border:2px solid black;
+    border-radius:15px;
+}
